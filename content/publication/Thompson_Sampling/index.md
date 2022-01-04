@@ -11,7 +11,7 @@ publication_types:
 authors:
   - Raymond Zhang
   - Richard Combes
-author_notes: [,<a href="http://rcombes.supelec.free.fr/index.html" style="font-weight:bold">Richard Combes</a>]
+author_notes: []
 publication: In *Neural Information Processing Systems 2021*
 summary: Thompson Sampling (TS) for combinatorial semi-bandits is
   sub-optimal  in the sense that its regret scales exponentially in the ambient
