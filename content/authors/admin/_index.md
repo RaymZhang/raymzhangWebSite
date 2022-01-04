@@ -1,7 +1,7 @@
 ---
 title: Raymond Zhang
 role: Research engineer at Inria
-avatar_filename: ray3.jpg
+avatar_filename: avatar.jpg
 bio: My research interests include Bandits, Reinforcement Learning, Self
   Supervised Learning.
 interests:
