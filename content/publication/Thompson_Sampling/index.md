@@ -1,11 +1,11 @@
 ---
-abstract: 'In this paper we consider Thompson Sampling
-  (TS) for combinatorial semi-bandits. We demonstrate that, perhaps
-  surprisingly, TS is sub-optimal for this problem in the sense that its regret
-  scales exponentially in the ambient dimension, and its minimax regret scales
-  almost linearly for some well chosen exemples that may not be that uncommon. '
+abstract: "In this paper we consider Thompson Sampling (TS) for combinatorial
+  semi-bandits. We demonstrate that, perhaps surprisingly, TS is sub-optimal for
+  this problem in the sense that its regret scales exponentially in the ambient
+  dimension, and its minimax regret scales almost linearly for some well chosen
+  exemples that may not be that uncommon. "
 slides: ""
-url_pdf: "https://arxiv.org/pdf/2102.05502.pdf"
+url_pdf: https://arxiv.org/pdf/2102.05502.pdf
 publication_types:
   - "1"
 authors:
@@ -30,6 +30,7 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
+  filename: featured.jpg
 date: 2021-12-01T00:00:00.000Z
 url_slides: ""
 publishDate: 2021-12-01T00:00:00.000Z
