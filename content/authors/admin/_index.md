@@ -1,49 +1,40 @@
 ---
 title: Raymond Zhang
-role: Professor of Artificial Intelligence
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+role: Research engineer at Inria
+avatar_filename: ray3.jpg
+bio: My research interests include Bandits, Reinforcement Learning, Self
+  Supervised Learning.
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Bandits
+  - Reinforcement Learning
+  - Self Supervised Learning
 social:
   - icon: envelope
     icon_pack: fas
     link: /#contact
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
   - icon: graduation-cap
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?hl=fr&user=SnNQLrQAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://github.com/raymzhang
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Ecole Normale Supérieure Paris-Saclay
+    url: https://ens-paris-saclay.fr/en
+  - name: Inria
+    url: https://www.inria.fr/en
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: M2R Mathématiques Vision Apprentissage
+      institution: ENS Paris-Saclay
+      year: 2019
+    - course: Diplôme de L'ENS Paris Saclay
+      institution: ENS Paris-Saclay
+      year: 2022
 email: ""
 superuser: true
 highlight_name: true
 ---
+I am a student ENS Paris-Saclay currently working at Inria.
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Raymond_Zhang_CV_EN.pdf" "newtab" >}}resumé{{< /staticref >}}.
