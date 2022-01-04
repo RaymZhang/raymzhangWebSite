@@ -1,5 +1,5 @@
 ---
-title: Example Talk
+title: Blabla
 
 event: Wowchemy Conference
 event_url: https://example.org
