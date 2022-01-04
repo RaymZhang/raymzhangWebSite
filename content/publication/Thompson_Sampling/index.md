@@ -21,8 +21,7 @@ url_project: ""
 publication_short: In *NeurIPS2021*
 url_source: ""
 url_video: ""
-title: <a href="https://arxiv.org/abs/2102.05502"
-  style="font-weight:bold">On the Suboptimality of Thompson Sampling in High Dimensions</a> 
+title: <a href="https://arxiv.org/abs/2102.05502" style="font-weight:bold">On the Suboptimality of Thompson Sampling in High Dimensions</a> 
 doi: ""
 featured: false
 tags: []
