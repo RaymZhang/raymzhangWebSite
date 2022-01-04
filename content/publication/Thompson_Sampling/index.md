@@ -5,13 +5,12 @@ abstract: 'In this paper we consider Thompson Sampling
   scales exponentially in the ambient dimension, and its minimax regret scales
   almost linearly for some well chosen exemples that may not be that uncommon. '
 slides: ""
-url_pdf: ""
+url_pdf: "https://arxiv.org/pdf/2102.05502.pdf"
 publication_types:
   - "1"
 authors:
   - Raymond Zhang
-  - <a href="http://rcombes.supelec.free.fr/index.html"
-  style="font-weight:bold">Richard Combes</a>
+  - <a href="http://rcombes.supelec.free.fr/index.html" style="font-weight:bold">Richard Combes</a>
 author_notes: []
 publication: In *Neural Information Processing Systems 2021*
 summary: Thompson Sampling (TS) for combinatorial semi-bandits is
