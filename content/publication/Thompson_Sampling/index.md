@@ -10,8 +10,8 @@ publication_types:
   - "1"
 authors:
   - Raymond Zhang
-  - <a href="http://rcombes.supelec.free.fr/index.html" style="font-weight:bold">Richard Combes</a>
-author_notes: []
+  - Richard Combes
+author_notes: [,<a href="http://rcombes.supelec.free.fr/index.html" style="font-weight:bold">Richard Combes</a>]
 publication: In *Neural Information Processing Systems 2021*
 summary: Thompson Sampling (TS) for combinatorial semi-bandits is
   sub-optimal  in the sense that its regret scales exponentially in the ambient
@@ -21,7 +21,7 @@ url_project: ""
 publication_short: In *NeurIPS2021*
 url_source: ""
 url_video: ""
-title: <a href="https://arxiv.org/abs/2102.05502" style="font-weight:bold">On the Suboptimality of Thompson Sampling in High Dimensions</a> 
+title: On the Suboptimality of Thompson Sampling in High Dimensions
 doi: ""
 featured: false
 tags: []
