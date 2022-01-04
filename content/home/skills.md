@@ -31,7 +31,7 @@ feature:
   icon_pack: fas
   name: Photography
 
-Uncomment to use emoji icons.
+#Uncomment to use emoji icons.
 - icon: ":smile:"
  icon_pack: "emoji"
  name: "Emojiness"
