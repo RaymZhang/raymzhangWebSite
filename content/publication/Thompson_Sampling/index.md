@@ -9,7 +9,7 @@ url_pdf: https://arxiv.org/pdf/2102.05502.pdf
 publication_types:
   - "1"
 authors:
-  - Raymond Zhang
+  - admin
   - Richard Combes
 author_notes: []
 publication: In *Neural Information Processing Systems 2021*
