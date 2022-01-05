@@ -35,6 +35,6 @@ email: ""
 superuser: true
 highlight_name: true
 ---
-I am a student ENS Paris-Saclay currently working at Inria.
+I am a student at ENS Paris-Saclay currently working at Inria.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Raymond_Zhang_CV_EN.pdf" "newtab" >}}resumé{{< /staticref >}}.
