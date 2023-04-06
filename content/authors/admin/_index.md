@@ -1,13 +1,13 @@
 ---
 title: Raymond Zhang
-role: Research engineer at Inria
+role: PhD Student at CentraleSupélec(L2S)
 avatar_filename: avatar.jpg
 bio: My research interests include Bandits, Reinforcement Learning, Self
   Supervised Learning.
 interests:
   - Bandits
-  - Reinforcement Learning
-  - Self Supervised Learning
+  - Measure Concentration
+  - Combinatorial Optimisation
 social:
   - icon: envelope
     icon_pack: fas
@@ -21,8 +21,8 @@ social:
 organizations:
   - name: Ecole Normale Supérieure Paris-Saclay
     url: https://ens-paris-saclay.fr/en
-  - name: Inria
-    url: https://www.inria.fr/en
+  - name: L2S
+    url: https://l2s.centralesupelec.fr/en/
 education:
   courses:
     - course: M2R Mathématiques Vision Apprentissage
@@ -35,6 +35,6 @@ email: ""
 superuser: true
 highlight_name: true
 ---
-I am a student at ENS Paris-Saclay currently working at Inria.
+I am currently a PhD Student at the L2S lab at CentraleSupelec under the supervision of [Richard Combes](http://rcombes.supelec.free.fr/) and [Sheng Yang](https://l2s.centralesupelec.fr/u/yang-sheng/)
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Raymond_Zhang_CV_EN.pdf" "newtab" >}}resumé{{< /staticref >}}.
