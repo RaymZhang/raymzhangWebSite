@@ -2,8 +2,7 @@
 title: Raymond Zhang
 role: PhD Student at CentraleSupélec(L2S)
 avatar_filename: avatar.jpg
-bio: My research interests include Bandits, Reinforcement Learning, Self
-  Supervised Learning.
+bio: My current research interests include Bandits, Measure Concentration and Combinatorial Optimisation
 interests:
   - Bandits
   - Measure Concentration
@@ -31,7 +30,7 @@ education:
     - course: Diplôme de L'ENS Paris Saclay
       institution: ENS Paris-Saclay
       year: 2022
-email: ""
+email: "Raymond.zhang[atchoum]hotmail.fr"
 superuser: true
 highlight_name: true
 ---
