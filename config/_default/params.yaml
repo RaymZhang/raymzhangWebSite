@@ -5,8 +5,9 @@
 
 # Appearance
 
-theme_night: minimal
-font: minimal
+theme: dark
+theme_night: dark
+font: ''
 font_size: L
 
 # SEO
