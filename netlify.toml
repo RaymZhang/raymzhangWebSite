@@ -20,10 +20,4 @@
   [plugins.inputs]
     debug = true
 
-[[redirects]]
-  from = "https://raymzhang.netlify.com/*"
-  to = "https://raymzhang.com/:splat"
-  status = 301
-  force = true
-  
-  
+
