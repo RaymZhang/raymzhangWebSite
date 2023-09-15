@@ -29,8 +29,28 @@ marketing:
     google: ''
     baidu: ''
 
+# Site header
 
+header:
+  navbar:
+    enable: true
+    align: l
+    show_logo: true
+    show_language: false
+    show_day_night: true
+    show_search: true
+    highlight_active_link: true
 
+# Site footer
+
+footer:
+  copyright:
+    notice: '© {year} Me. This work is licensed under {license}'
+    license:
+      enable: true
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
 
 # Contact (edit or remove options as required)
 
@@ -69,37 +89,12 @@ directions: Batiment Bréguet
 #     name: Discuss on Forum
 #     link: 'https://discourse.gohugo.io'
 
-# Site header
-
-header:
-  navbar:
-    enable: true
-    align: l
-    show_logo: true
-    show_language: false
-    show_day_night: true
-    show_search: true
-    highlight_active_link: true
-
-# Site footer
-
-footer:
-  copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
-
 # Localization
 
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '15:04'
   address_format: en-us
-
-
 
 # Site features
 
