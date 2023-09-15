@@ -5,7 +5,7 @@ date: 2023-09-15
 type: landing
 
 sections:
-  - block: about
+  - block: about.biography
     id: about
     content:
       title: 
@@ -25,6 +25,7 @@ sections:
             position: center
           # Use a fun parallax-like fixed background effect on desktop? true/false
             parallax: true
+
 
   - block: collection
     id: publications
