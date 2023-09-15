@@ -11,10 +11,10 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-    design:
-      background:
-        image: sweden1.jpg
-        image_darken: 0.6
+    # design:
+    #   background:
+    #     image: sweden1.jpg
+    #     image_darken: 0.6
 
   - block: collection
     id: publications
