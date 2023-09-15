@@ -13,8 +13,8 @@ sections:
       username: admin
     design:
       background:
-          image: sweden1.jpg
-          image_darken: 0.6
+        image: sweden1.jpg
+        image_darken: 0.6
 
   - block: collection
     id: publications
@@ -26,7 +26,7 @@ sections:
             {{% /callout %}}
       filters:
           folders:
-          - publication
+            - publication
           exclude_featured: true
     design:
       columns: '2'
