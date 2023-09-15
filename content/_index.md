@@ -8,7 +8,7 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Biography
+      title: 
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       design:
@@ -16,14 +16,16 @@ sections:
           image: 
             filename: sweden1.jpg
             filters: 
-              brightness: 0.6
+              brightness: 0.1
+              
+            # Text color (true=light, false=dark, or remove for the dynamic theme color).
             text_color_light: true
             size: cover
           # Image focal point. Options include `left`, `center` (default), or `right`.
             position: center
           # Use a fun parallax-like fixed background effect on desktop? true/false
             parallax: true
-          # Text color (true=light, false=dark, or remove for the dynamic theme color).
+          
             text_color_light: true
 
   - block: collection
