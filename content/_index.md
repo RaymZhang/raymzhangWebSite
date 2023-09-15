@@ -17,6 +17,7 @@ sections:
             image_darken: 0.6
   
   - block: collection
+    id: publications
     content:
         title: Recent Publications
         text: |-
