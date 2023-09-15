@@ -17,7 +17,6 @@ sections:
             filename: sweden1.jpg
             filters: 
               brightness: 0.1
-              
             # Text color (true=light, false=dark, or remove for the dynamic theme color).
             text_color_light: true
             size: cover
