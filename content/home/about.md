@@ -9,5 +9,5 @@ title: Biography
 design:
   background:
     image: sweden1.jpg
-    image_darken: 0.6
+    brightness: 0.6
 ---
