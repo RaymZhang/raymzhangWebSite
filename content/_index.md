@@ -23,11 +23,11 @@ sections:
       text: |-
           {{% callout note %}}
           Quickly discover relevant content by [filtering publications](./publication/).
-            {{% /callout %}}
+          {{% /callout %}}
       filters:
-          folders:
-            - publication
-          exclude_featured: true
+        folders:
+          - publication
+        exclude_featured: true
     design:
       columns: '2'
       view: citation
