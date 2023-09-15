@@ -45,7 +45,7 @@ sections:
   - block: contact
     id: contact
     content:
-    title: Contact
+      title: Contact
       # Automatically link email and phone or display as text?
       autolink: true
       email: Raymond.zhang[atchoum]hotmail.fr
