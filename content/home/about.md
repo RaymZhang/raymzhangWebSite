@@ -5,7 +5,7 @@ author: admin
 widget_id: aboutsweden
 headless: true
 weight: 20
-title: Biography
+title: 
 design:
   background:
     image: sweden1.jpg
