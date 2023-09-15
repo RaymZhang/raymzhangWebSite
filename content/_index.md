@@ -5,7 +5,7 @@ date: 2023-09-15
 type: landing
 
 sections:
-  - block: aboutsweden
+  - block: about.biography
     id: about
     content:
       title: 
