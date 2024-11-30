@@ -36,4 +36,4 @@ highlight_name: true
 ---
 I am currently a PhD Student at the L2S lab at CentraleSupelec under the supervision of [Richard Combes](http://rcombes.supelec.free.fr/) and [Sheng Yang](https://l2s.centralesupelec.fr/u/yang-sheng/)
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Raymond_Zhang_CV_EN.pdf" "newtab" >}}resumé{{< /staticref >}}.
+<!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Raymond_Zhang_CV_EN.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
