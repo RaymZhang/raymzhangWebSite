@@ -24,12 +24,12 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-  filename: poster.png
+  filename: poster.jpg
 date: 2024-12-01T00:00:00.000Z
 url_slides: ""
 publishDate: 2024-12-01T00:00:00.000Z
 url_poster: ""
-url_code: ""
+url_code: "https://github.com/RaymZhang/CTS-Mismatched-Paradox"
 ---
 
 <!-- {{% callout note %}}
