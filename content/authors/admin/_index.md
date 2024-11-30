@@ -30,10 +30,8 @@ education:
     - course: Diplôme de L'ENS Paris Saclay
       institution: ENS Paris-Saclay
       year: 2022
-email: "Raymond.zhang[atchoum]hotmail.fr"
+email: 'Raymond.zhang[atchoum]hotmail.fr'
 superuser: true
 highlight_name: true
 ---
 I am currently a PhD Student at the L2S lab at CentraleSupelec under the supervision of [Richard Combes](http://rcombes.supelec.free.fr/) and [Sheng Yang](https://l2s.centralesupelec.fr/u/yang-sheng/)
-
-{{% staticref "uploads/Raymond_Zhang_CV_EN.pdf" "newtab" %}}Download my CV{{% /staticref %}}
