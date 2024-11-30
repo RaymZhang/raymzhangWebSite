@@ -15,7 +15,7 @@ url_project: ""
 publication_short: In *NeurIPS2024*
 url_source: ""
 url_video: ""
-title: "Thompson Sampling For Combinatorial Bandits: Polynomial Regret and Mismatched Sampling Paradox"
+title: Thompson Sampling For Combinatorial Bandits, Polynomial Regret and Mismatched Sampling Paradox
 doi: ""
 featured: false
 tags: []
