@@ -24,7 +24,7 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-  filename: poster.jpg
+  filename: featured.jpg
 date: 2024-12-01T00:00:00.000Z
 url_slides: ""
 publishDate: 2024-12-01T00:00:00.000Z
