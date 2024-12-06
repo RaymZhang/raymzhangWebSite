@@ -41,7 +41,7 @@ sections:
           - publication
         featured_only: 
     design:
-      view: card
+      view: citation
       columns: 1
       flip_alt_rows: true
 

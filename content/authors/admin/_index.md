@@ -1,6 +1,6 @@
 ---
 title: Raymond Zhang
-role: PhD Student at CentraleSupélec(L2S)
+role: PhD Student at CentraleSupélec
 avatar_filename: avatar.jpg
 
 
@@ -16,7 +16,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/raymzhang
 organizations:
-  - name: L2S
+  - name: Laboratoire des signaux et systèmes (L2S)
     url: https://l2s.centralesupelec.fr/en/
 education:
     - area: M2R Mathématiques Vision Apprentissage
