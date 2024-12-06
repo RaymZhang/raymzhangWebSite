@@ -30,7 +30,7 @@ sections:
           size: cover
           position: center
           parallax: false
-      text_color_light: false
+        text_color_light: false
         
   - block: collection
     id: papers
@@ -43,6 +43,7 @@ sections:
     design:
       view: compact
       columns: 1
+      flip_alt_rows: true
 
   
 ---
