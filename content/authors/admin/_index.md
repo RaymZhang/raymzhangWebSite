@@ -16,17 +16,17 @@ profiles:
   - icon: brands/github
     url: https://github.com/raymzhang
 organizations:
-  - name: Ecole Normale Supérieure Paris-Saclay
-    url: https://ens-paris-saclay.fr/en
   - name: L2S
     url: https://l2s.centralesupelec.fr/en/
 education:
     - area: M2R Mathématiques Vision Apprentissage
       institution: ENS Paris-Saclay
-      year: 2019
+      date_start: 2019-09-01
+      date_end: 2020-09-01
     - area: Diplôme de L'ENS Paris Saclay
       institution: ENS Paris-Saclay
-      year: 2022
+      date_start: 2017-09-01
+      date_end: 2022-09-01
 interests:
   - Bandits
   - Measure Concentration
