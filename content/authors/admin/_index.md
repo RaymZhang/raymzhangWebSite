@@ -1,6 +1,6 @@
 ---
 title: Raymond Zhang
-role: PhD Student at CentraleSupélec
+role: PhD Student at [CentraleSupélec](https://www.centralesupelec.fr/en)
 avatar_filename: avatar.jpg
 
 
