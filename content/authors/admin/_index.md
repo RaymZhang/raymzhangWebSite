@@ -2,7 +2,7 @@
 title: Raymond Zhang
 role: PhD Student at CentraleSupélec(L2S)
 avatar_filename: avatar.jpg
-bio: My current research interests include Bandits, Measure Concentration and Combinatorial Optimisation
+
 
 first_name: Raymond
 last_name: Zhang

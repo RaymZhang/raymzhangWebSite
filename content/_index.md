@@ -30,6 +30,8 @@ sections:
           size: cover
           position: center
           parallax: false
+      text_color_light: false
+        
   - block: collection
     id: papers
     content:
@@ -39,7 +41,8 @@ sections:
           - publication
         featured_only: 
     design:
-      view: article-grid
+      view: compact
       columns: 1
+
   
 ---
