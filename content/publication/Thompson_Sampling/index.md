@@ -7,7 +7,7 @@ abstract: "In this paper we consider Thompson Sampling (TS) for combinatorial
 slides: ""
 url_pdf: https://arxiv.org/pdf/2102.05502.pdf
 publication_types:
-  - "1"
+  - Conference Paper
 authors:
   - admin
   - Richard Combes
@@ -31,18 +31,18 @@ image:
   focal_point: ""
   preview_only: false
   filename: featured.jpg
-date: 2021-12-01T00:00:00.000Z
+date: 2021-12-07T00:00:00.000Z
 url_slides: ""
 publishDate: 2021-12-01T00:00:00.000Z
 url_poster: ""
-url_code: ""
+url_code: https://github.com/RaymZhang/CTS-Mismatched-Paradox
 ---
 
 <!-- {{% callout note %}}
 Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
+{{% /callout %}} -->
 
-{{% callout note %}}
+<!-- {{% callout note %}}
 Create your slides in Markdown - click the *Slides* button to check out the example.
 {{% /callout %}}
 
