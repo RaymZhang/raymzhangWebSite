@@ -19,7 +19,6 @@ sections:
         text: Download CV
         url: uploads/Raymond_Zhang_CV_EN.pdf
     design:
-      css_class: dark
       background:
         color: black
         image:
@@ -44,6 +43,4 @@ sections:
       view: citation
       columns: 1
       flip_alt_rows: true
-
-  
 ---
