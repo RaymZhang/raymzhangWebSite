@@ -25,7 +25,7 @@ sections:
           # Add your image background to `assets/media/`.
           filename: sweden1.jpg
           filters:
-            brightness: 0.8
+            brightness: 0.5
           size: cover
           position: center
           parallax: false
