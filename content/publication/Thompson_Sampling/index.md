@@ -5,7 +5,7 @@ abstract: "In this paper we consider Thompson Sampling (TS) for combinatorial
   dimension, and its minimax regret scales almost linearly for some well chosen
   exemples that may not be that uncommon. "
 slides: ""
-url_pdf: https://arxiv.org/pdf/2102.05502.pdf
+url_pdf: https://arxiv.org/abs/2102.05502
 publication_types:
   - Conference Paper
 authors:

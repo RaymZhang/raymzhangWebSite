@@ -6,7 +6,7 @@
 # Appearance
 
 appearance:
-  theme: dark
+  mode: dark
   font: ''
   font_size: L
 

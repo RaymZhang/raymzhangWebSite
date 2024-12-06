@@ -19,7 +19,6 @@ sections:
         text: Download CV
         url: uploads/Raymond_Zhang_CV_EN.pdf
     design:
-      css_style: light
       background:
         image:
           # Add your image background to `assets/media/`.
@@ -29,7 +28,6 @@ sections:
           size: cover
           position: center
           parallax: false
-          text_color_light: false
         
   - block: collection
     id: papers
