@@ -20,7 +20,6 @@ sections:
         url: uploads/Raymond_Zhang_CV_EN.pdf
     design:
       background:
-        color: black
         image:
           # Add your image background to `assets/media/`.
           filename: sweden1.jpg
