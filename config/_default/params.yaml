@@ -7,7 +7,6 @@
 
 appearance:
   theme: dark
-  theme_night: dark
   font: ''
   font_size: L
 
@@ -36,7 +35,7 @@ header:
     blox: "navbar"
     fixed_to_top: true
     show_search: true
-    show_theme_chooser: true
+    show_theme_chooser: false
     logo:
       text: "Raymond Zhang"
 
