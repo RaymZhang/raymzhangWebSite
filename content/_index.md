@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/Raymond_Zhang_CV_EN.pdf
+        url: uploads/CV_Raymond_Zhang_EN.pdf
     design:
       background:
         image:
