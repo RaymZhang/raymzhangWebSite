@@ -13,10 +13,10 @@ sections:
   - block: collection
     id: teaching
     content:
-      title: Teaching
+      title: Teaching at CentraleSupélec
       filters:
         folders:
-          - teaching
+          - teaching_CS
     design:
       view: citation
       # columns: 2

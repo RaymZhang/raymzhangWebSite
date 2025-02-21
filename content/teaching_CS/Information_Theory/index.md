@@ -1,6 +1,6 @@
 ---
 title: Information Theory
-summary: Introduction to infromation theory to first year CentraleSupélec students
+summary: Introduction to Information Theory to first year CentraleSupélec students
 date: 2023-02-01
 type: docs
 math: false
