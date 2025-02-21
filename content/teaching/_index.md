@@ -16,7 +16,7 @@ sections:
       title: Teaching at CentraleSupélec
       filters:
         folders:
-          - teaching_CS
+          - teaching
     design:
       view: citation
       # columns: 2
