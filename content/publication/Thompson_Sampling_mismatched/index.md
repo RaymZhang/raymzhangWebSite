@@ -12,7 +12,7 @@ publication: In *Neural Information Processing Systems 2024*
 summary: We propose the first known Thompson Sampling for combinatorial bandits whose finite-time regret does not scale exponentially with the dimension of the problem. Suprisingly, considering any subgaussian distribution as a gaussian can produce exponentialy better result.
 url_dataset: ""
 url_project: ""
-publication_short: In *NeurIPS2024*
+publication_short: In *NeurIPS2024* (Spotlight)
 url_source: ""
 url_video: ""
 title: 'Thompson Sampling For Combinatorial Bandits: Polynomial Regret and Mismatched Sampling Paradox'
