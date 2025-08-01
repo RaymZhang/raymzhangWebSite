@@ -6,6 +6,7 @@ type: docs
 math: false
 tags:
   - Random graphs
+  - M
 image:
   caption: ''
 ---
