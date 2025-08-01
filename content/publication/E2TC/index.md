@@ -26,11 +26,11 @@ image:
   focal_point: ""
   preview_only: false
   filename: featured.jpg
-date: 2024-12-09T00:00:00.000Z
+date: 2025-06-30T00:00:00.000Z
 url_slides: ""
 publishDate: 2024-12-01T00:00:00.000Z
 url_poster: ""
-url_code: https://github.com/RaymZhang/CTS-Mismatched-Paradox
+url_code: https://github.com/RaymZhang/LinearBanditsEllipsoidsMinimaxCOLT
 ---
 
 <!-- {{% callout note %}}
