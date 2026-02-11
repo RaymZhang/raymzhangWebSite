@@ -38,7 +38,7 @@ sections:
         folders:
           - post
     design:
-      view: compact
+      view: citation
       columns: 1
 
   - block: collection
