@@ -10,34 +10,49 @@ appearance:
   font: ''
   font_size: L
 
-# SEO
 
-marketing:
-  seo:
-    site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'Website of a Phd Student'
-    twitter: 'wowchemy'
-  analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-    google_tag_manager: ''
-    microsoft_clarity: ''  
-  verification:
-    google: ''
-    baidu: ''
+hugoblox:
+  schema: "2.0"
 
-# Site header
-header:
-  navbar:
+  # ────────────────────────────────────────────────────────────────────────────
+  # IDENTITY
+  # Site-level branding (for people/profiles, use the author system in content/authors/)
+  # ────────────────────────────────────────────────────────────────────────────
+  identity:
+    # Site name - shown in navbar, footer, copyright, and browser title by default
+    name: "Raymond Zhang"
+    # Legal entity for copyright notices (defaults to name if not set)
+    organization: ""
+    # Schema.org type for structured data
+    type: person                        # person | organization | local_business
+    # Short tagline displayed on your site
+    tagline: ""
+    # Site meta description for search engines and social sharing
+    description: "The highly-customizable Hugo Academic theme powered by HugoBlox Kit. Easily create your personal academic website."
+
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # HEADER
+  # Site header and navigation bar
+  # ────────────────────────────────────────────────────────────────────────────
+  header:
     enable: true
-    blox: "navbar"
-    fixed_to_top: true
-    show_search: true
-    show_theme_chooser: false
-    logo:
-      text: "Raymond Zhang"
+    # Header style variant
+    style: navbar                       # navbar | navbar-simple | minimal
+    # Stick to top on scroll
+    sticky: true
+    # Menu alignment
+    align: center                       # left | center | right
+    # Feature toggles
+    search: false
+    theme_toggle: false
+    theme_picker: false
+    language_switcher: false
+    # Call-to-action button
+    cta:
+      enable: false
+      text: ""
+      url: ""
 
 
 # Site footer
@@ -62,12 +77,24 @@ locale:
 
 # Site features
 
+content:
+  # Math rendering
+  math:
+    enable: false
+  # Table of contents
+  toc:
+    enable: true
+  # Reading time estimates
+  reading_time:
+    enable: false
+  # Academic citations
+  citations:
+    style: apa  
+
 features:
   syntax_highlighter:
     theme_light: github-light
     theme_dark: dracula
-  math:
-    enable: true
   privacy_pack:
     enable: false
   repository:
@@ -89,24 +116,7 @@ features:
       repo_id: ''
       category: ''
       category_id: ''
-  search:
-    provider: wowchemy
-    algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
-      show_logo: false
-  map:
-    provider: ''
-    api_key: ''
-    zoom: 15
 
-extensions:
-  cms:
-    branch: master
-    local_backend: false
-  academicons:
-    enable: true
 
 security:
   # Allow frame for embedding speaker notes in slides

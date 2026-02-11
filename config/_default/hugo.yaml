@@ -52,3 +52,11 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+
+# Disable reading time globally (template checks page params)
+cascade:
+  - _target:
+      kind: page
+    params:
+      reading_time: false
+      share: false

@@ -1,12 +1,13 @@
 ---
 title: Machine Learning
-summary: Introduction to Machine learning for third year CentraleSupélec master students
+summary: |-
+  Introduction to Machine learning for third year CentraleSupélec master students
 date: 2023-09-01
+period: "2023-2025"
 type: docs
 math: false
 tags:
-  - Machine Learning
-  - M
+  - Master
 image:
   caption: ''
 ---

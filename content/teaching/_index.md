@@ -18,6 +18,6 @@ sections:
         folders:
           - teaching
     design:
-      view: list
+      view: date-title-summary-period
       # columns: 2
 ---
