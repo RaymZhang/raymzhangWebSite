@@ -9,7 +9,7 @@ url_pdf: https://arxiv.org/abs/2102.05502
 publication_types:
   - Conference Paper
 authors:
-  - admin
+  - me
   - Richard Combes
 author_notes: []
 publication: In *Neural Information Processing Systems 2021*
@@ -37,6 +37,7 @@ publishDate: 2021-12-01T00:00:00.000Z
 url_poster: ""
 url_code: https://github.com/RaymZhang/CTS-Mismatched-Paradox
 ---
+
 
 <!-- {{% callout note %}}
 Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.

@@ -1,0 +1,45 @@
+"schema": "hugoblox/author/v1"
+"slug": "me"
+"name":
+  "display": "Raymond Zhang"
+  "given": "Raymond"
+  "family": "Zhang"
+"is_owner": true
+"role": "PhD Student at [CentraleSupélec](https://www.centralesupelec.fr/en)"
+"bio": "## About Me
+
+
+  I was currently a PhD Student at the L2S lab at CentraleSupelec under the supervision of [Richard Combes](http://rcombes.supelec.free.fr/) and [Sheng Yang](https://l2s.centralesupelec.fr/u/yang-sheng/)"
+"affiliations":
+  - "name": "Laboratoire des signaux et systèmes (L2S)"
+    "url": "https://l2s.centralesupelec.fr/en/"
+"ids":
+  "google_scholar": "SnNQLrQAAAAJ"
+"links":
+  - "icon": "at-symbol"
+    "url": "mailto:raymzhangwu[atchoum]gmail.com"
+    "label": "E-mail Me"
+  - "icon": "academicons/google-scholar"
+    "url": "https://scholar.google.com/citations?hl=fr&user=SnNQLrQAAAAJ"
+  - "icon": "brands/github"
+    "url": "https://github.com/raymzhang"
+  - "icon": "at-symbol"
+    "url": "mailto:Raymond.zhang[atchoum]hotmail.fr"
+    "label": "Email"
+"interests":
+  - "Addaptative Estimation"
+  - "Bandits"
+  - "Optimization"
+"education":
+  - "institution": "ENS Paris-Saclay"
+    "degree": "PhD CentraleSupélec, Université Paris Saclay"
+    "start": "2022-12-01"
+    "end": "2025-12-31"
+  - "institution": "ENS Paris-Saclay"
+    "degree": "Diplôme de L'ENS Paris Saclay"
+    "start": "2017-09-01"
+    "end": "2022-09-01"
+  - "institution": "ENS Paris-Saclay"
+    "degree": "M2R Mathématiques Vision Apprentissage"
+    "start": "2019-09-01"
+    "end": "2020-09-01"
