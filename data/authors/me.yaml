@@ -6,10 +6,11 @@
   "family": "Zhang"
 "is_owner": true
 "role": "PhD Student at [CentraleSupélec](https://www.centralesupelec.fr/en)"
+"status":
+  "icon": "circle"
+  "label": "PhD thesis defended"
 "bio": "## About Me
-
-
-  I was currently a PhD Student at the L2S lab at CentraleSupelec under the supervision of [Richard Combes](http://rcombes.supelec.free.fr/) and [Sheng Yang](https://l2s.centralesupelec.fr/u/yang-sheng/)"
+      I was a PhD Student at the L2S lab at CentraleSupelec under the supervision of [Richard Combes](http://rcombes.supelec.free.fr/) and [Sheng Yang](https://l2s.centralesupelec.fr/u/yang-sheng/)"
 "affiliations":
   - "name": "Laboratoire des signaux et systèmes (L2S)"
     "url": "https://l2s.centralesupelec.fr/en/"
