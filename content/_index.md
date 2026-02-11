@@ -47,7 +47,7 @@ sections:
       title: Publications
       filters:
         folders:
-          - publication
+          - publications
         featured_only: 
     design:
       view: citation
