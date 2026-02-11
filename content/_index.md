@@ -28,7 +28,19 @@ sections:
           size: cover
           position: center
           parallax: false
-        
+
+  - block: collection
+    id: news
+    content:
+      title: News
+      subtitle: Latest updates
+      filters:
+        folders:
+          - post
+    design:
+      view: compact
+      columns: 1
+
   - block: collection
     id: papers
     content:
