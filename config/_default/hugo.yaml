@@ -21,7 +21,7 @@ removePathAccents: true
 
 build:
   writeStats: true
-enableGitInfo: false
+enableGitInfo: true
 summaryLength: 30
 pagination:
   pagerSize: 10
@@ -60,3 +60,7 @@ cascade:
     params:
       reading_time: false
       share: false
+  - _target:
+      section: events
+    params:
+      hide_event_date_section: true
