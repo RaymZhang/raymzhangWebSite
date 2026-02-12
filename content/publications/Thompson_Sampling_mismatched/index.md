@@ -12,7 +12,7 @@ publication_types:
   - Conference Paper
 authors:
   - me
-  - Richard Combes
+  - richardc
 author_notes: []
 math: true
 publication: In *Neural Information Processing Systems 2024*

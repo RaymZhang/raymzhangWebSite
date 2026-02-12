@@ -1,0 +1,11 @@
+schema: hugoblox/author/v1
+slug: shengy
+name:
+  display: Sheng Yang
+role: Professeur
+affiliations:
+  - name: L2S CentraleSupélec
+links:
+  - icon: link
+    url: https://l2s.centralesupelec.fr/u/yang-sheng/
+    label: Website

@@ -25,8 +25,8 @@ publication_types:
   - Conference Paper
 authors:
   - me
-  - Hédi Hadiji
-  - Richard Combes
+  - hedih
+  - richardc
 author_notes: []
 math: true
 publication: In *The Thirty Eighth Annual Conference on Learning Theory 2025*

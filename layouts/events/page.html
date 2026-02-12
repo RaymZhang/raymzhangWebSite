@@ -72,7 +72,12 @@
 
         {{ range $i, $slug := .Params.authors }}
           {{ $profile := partial "functions/get_author_profile" $slug }}
+          {{ $info := partial "author_link.html" (dict "profile" $profile "slug" $slug) }}
+          {{ $display := $info.display }}
+          {{ $author_url := $info.url }}
+          {{ $is_external := $info.is_external }}
           {{ $avatar := $profile.avatar }}
+
           {{ if and $i (not $avatar) }}<span class="mr-1">,</span>{{ end }}
           <div class="group inline-flex items-center text-current gap-x-1.5 mx-1">
             {{ with $avatar }}
@@ -80,11 +85,17 @@
               <img src="{{ $avatar_32.RelPermalink }}" 
                    width="16"
                    height="16"
-                   alt="{{ $profile.title }}" 
+                   alt="{{ $display }}" 
                    class="inline-block h-4 w-4 rounded-full border border-current" 
                    loading="lazy" />
             {{ end }}
-            <div>{{ $profile.title }}</div>
+            <div>
+              {{ if $author_url }}
+                <a href="{{ $author_url | safeURL }}" {{ if $is_external }}target="_blank" rel="noopener"{{ end }}>{{ $display }}</a>
+              {{ else }}
+                {{ $display }}
+              {{ end }}
+            </div>
           </div>
           {{/* Add author note tooltip if available */}}
           {{- if isset $.Params "author_notes" -}}

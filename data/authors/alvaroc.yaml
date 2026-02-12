@@ -1,0 +1,11 @@
+schema: hugoblox/author/v1
+slug: alvaroc
+name:
+  display: Alvaro Cabrejas Egea
+role: Technology Specialist, Policy Officer
+affiliations:
+  - name: European Commission
+links:
+  - icon: link
+    url: https://www.linkedin.com/in/acabrejas/
+    label: Website

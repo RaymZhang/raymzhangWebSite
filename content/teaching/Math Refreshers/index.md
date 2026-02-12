@@ -5,9 +5,9 @@ summary: |-
 date: 2023-09-01
 period: "2023-2025"
 type: docs
-math: false
+math: true
 tags:
-  - License
+  - Licence
 image:
   caption: ''
 ---

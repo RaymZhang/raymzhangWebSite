@@ -1,0 +1,52 @@
+{{/* Build author display + link with preference for Website/Site link. */}}
+{{- $profile := .profile -}}
+{{- $slug := .slug -}}
+{{- $display := "" -}}
+{{- if $profile -}}
+  {{- $display = $profile.title -}}
+{{- end -}}
+{{- if not $display -}}
+  {{- $display = $slug | humanize -}}
+{{- end -}}
+
+{{- $url := "" -}}
+{{- if and $profile $profile.is_owner -}}
+  {{- $url = site.BaseURL -}}
+{{- end -}}
+
+{{- if and (not $url) $profile $profile.links -}}
+  {{- range $link := $profile.links -}}
+    {{- if not $url -}}
+      {{- $label := ($link.label | default "") | lower -}}
+      {{- if or (eq $label "website") (eq $label "site") -}}
+        {{- $raw := $link.url | default $link.link -}}
+        {{- if $raw -}}
+          {{- $scheme := (urls.Parse $raw).Scheme -}}
+          {{- if in (slice "http" "https") $scheme -}}
+            {{- $url = $raw -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if and (not $url) $profile $profile.links -}}
+  {{- range $link := $profile.links -}}
+    {{- if not $url -}}
+      {{- $raw := $link.url | default $link.link -}}
+      {{- if $raw -}}
+        {{- $scheme := (urls.Parse $raw).Scheme -}}
+        {{- if in (slice "http" "https") $scheme -}}
+          {{- $url = $raw -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if not $url -}}
+  {{- $url = printf "/authors/%s/" ($slug | urlize) -}}
+{{- end -}}
+
+{{- return (dict "display" $display "url" $url "is_external" (hasPrefix $url "http")) -}}

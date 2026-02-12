@@ -1,0 +1,11 @@
+schema: hugoblox/author/v1
+slug: hedih
+name:
+  display: Hédi Hadiji
+role: Maitre de Conférence
+affiliations:
+  - name: L2S CentraleSupélec
+links:
+  - icon: link
+    url: https://hedi-hadiji.github.io/
+    label: Website

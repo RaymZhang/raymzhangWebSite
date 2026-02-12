@@ -1,0 +1,11 @@
+schema: hugoblox/author/v1
+slug: richardc
+name:
+  display: Richard Combes
+role: Maitre de Conférence
+affiliations:
+  - name: L2S CentraleSupélec
+links:
+  - icon: link
+    url: http://rcombes.supelec.free.fr/
+    label: Website

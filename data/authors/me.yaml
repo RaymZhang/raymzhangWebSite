@@ -18,6 +18,12 @@
 "ids":
   "google_scholar": "SnNQLrQAAAAJ"
 "links":
+  - "icon": "link"
+    "url": "https://raymzhang.com/"
+    "label": "Website"
+  - "icon": "key"
+    "url": "/uploads/raymzhangwu.asc"
+    "label": "PGP public key"
   - "icon": "at-symbol"
     "url": "mailto:raymzhangwu[atchoum]gmail.com"
     "label": "E-mail Me"

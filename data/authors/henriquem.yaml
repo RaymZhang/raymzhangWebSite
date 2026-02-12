@@ -1,0 +1,11 @@
+schema: hugoblox/author/v1
+slug: henriquem
+name:
+  display: Henrique Miyamoto
+role: PhD Student
+affiliations:
+  - name: L2S CentraleSupélec
+links:
+  - icon: link
+    url: https://miyamotohk.github.io/
+    label: Website

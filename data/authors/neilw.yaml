@@ -1,0 +1,11 @@
+schema: hugoblox/author/v1
+slug: neilw
+name:
+  display: Neil Walton
+role: Professor
+affiliations:
+  - name: Durham University Business School
+links:
+  - icon: link
+    url: https://sites.google.com/site/neilwaltonswebsite/
+    label: Website
