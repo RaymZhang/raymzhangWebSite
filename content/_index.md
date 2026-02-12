@@ -42,7 +42,7 @@ sections:
         folders:
           - events
     design:
-      view: date-title-summary
+      view: date-title-summary-event
       columns: 1
 
   - block: collection

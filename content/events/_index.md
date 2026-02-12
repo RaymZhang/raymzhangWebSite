@@ -4,7 +4,7 @@ cms_exclude: true
 #url: talk
 
 # View
-view: citation
+view: date-title-summary-event
 
 # Optional cover image (relative to `assets/media/` folder).
 image:

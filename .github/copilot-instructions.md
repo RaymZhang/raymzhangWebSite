@@ -7,13 +7,19 @@
 
 ## Content & structure
 - The homepage is a “landing” page defined in [content/_index.md](content/_index.md) with a `sections` list of Hugo Blox blocks (e.g., `resume-biography-3`, `collection`).
-- Publications live under [content/publication/](content/publication/) with one folder per item (e.g., [content/publication/Thompson_Sampling/index.md](content/publication/Thompson_Sampling/index.md)). Front matter carries fields like `authors`, `publication`, and `url_pdf`; optional `cite.bib` files sit next to the entry.
-- Teaching pages are section pages under [content/teaching/](content/teaching/).
-- Author profile data is in [content/authors/](content/authors/), and the navbar is configured in [config/_default/menus.yaml](config/_default/menus.yaml).
+- Publications live under [content/publications/](content/publications/) with one folder per item (e.g., [content/publications/Thompson_Sampling/index.md](content/publications/Thompson_Sampling/index.md)). Front matter uses `authors` plus `links` for PDF/code; avoid deprecated `url_pdf`/`url_code`.
+- Teaching pages are under [content/teaching/](content/teaching/) and use a custom period view (`date-title-summary-period`).
+- Author profiles are stored in [data/authors/](data/authors/) (slugs must match filenames), and the navbar is configured in [config/_default/menus.yaml](config/_default/menus.yaml).
+- Events live under [content/events/](content/events/); the event page template hides the date section via `hide_event_date_section` (set globally in [config/_default/hugo.yaml](config/_default/hugo.yaml)).
 
 ## Assets & customization
 - Images referenced by blocks are stored in [assets/media/](assets/media/). Downloadables (e.g., CV) are expected under [static/uploads/](static/uploads/).
 - Custom HTML injections are placed under [layouts/partials/hooks/](layouts/partials/hooks/) (e.g., GitHub button script in [layouts/partials/hooks/head-end/github-button.html](layouts/partials/hooks/head-end/github-button.html)).
+- Custom template overrides live in [layouts/_partials/](layouts/_partials/) and [layouts/](layouts/). Notable overrides:
+  - Resume block override: [layouts/_partials/hbx/blocks/resume-biography-3/block.html](layouts/_partials/hbx/blocks/resume-biography-3/block.html)
+  - Author link logic: [layouts/_partials/author_link.html](layouts/_partials/author_link.html)
+  - Author lists/cards: [layouts/_partials/page_metadata_authors.html](layouts/_partials/page_metadata_authors.html), [layouts/_partials/page_author_card.html](layouts/_partials/page_author_card.html)
+  - Single and event page overrides: [layouts/single.html](layouts/single.html), [layouts/events/page.html](layouts/events/page.html)
 
 ## Build & deploy
 - Netlify build settings are in [netlify.toml](netlify.toml). The build command is:
@@ -22,4 +28,8 @@
 
 ## Conventions to follow
 - Keep content updates in `content/` and config changes in `config/_default/` rather than editing generated output in `public/`.
-- When adding a new publication, follow the folder-per-publication pattern used in [content/publication/](content/publication/).
+- When adding a new publication, follow the folder-per-publication pattern used in [content/publications/](content/publications/).
+- Author slugs in `authors:` must match filenames in [data/authors/](data/authors/) (lowercase, URL-safe).
+- Author names should link to personal websites (label links as `Website` or `Site` in author profiles). The shared logic is in [layouts/_partials/author_link.html](layouts/_partials/author_link.html).
+- The resume-biography-3 block hides the Website icon in social links; if you add a Website link, it is used for author-name linking, not as a visible icon.
+- Global page params are set in [config/_default/hugo.yaml](config/_default/hugo.yaml) (e.g., `reading_time: false`, `share: false`).
