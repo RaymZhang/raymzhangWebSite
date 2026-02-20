@@ -101,9 +101,12 @@
           
           {{ range $profile.affiliations }}
             <p class="text-lg text-gray-800 dark:text-gray-100">
-              {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener" class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">{{ end }}
-              {{ .name }}
-              {{ if .url }}</a>{{ end }}
+              {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener" class="inline-flex items-center gap-1 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">{{ end }}
+              <span>{{ .name }}</span>
+              {{ if .url }}
+                {{ partial "functions/get_icon" (dict "name" "arrow-top-right-on-square" "attributes" "class='w-3.5 h-3.5 opacity-70'") }}
+              </a>
+              {{ end }}
             </p>
           {{ end }}
         </div>
@@ -166,7 +169,8 @@
           <a href="{{.url}}" target="_blank" 
              class="inline-flex items-center px-8 py-4 bg-gradient-to-r from-primary-600 to-secondary-600 hover:from-primary-700 hover:to-secondary-700 text-white font-bold text-lg rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
             {{ partial "functions/get_icon" (dict "name" "document-arrow-down" "attributes" "class='w-5 h-5 mr-3'") }}
-            {{.text}}
+            <span>{{.text}}</span>
+            {{ partial "functions/get_icon" (dict "name" "arrow-top-right-on-square" "attributes" "class='w-4 h-4 ml-2 opacity-80'") }}
           </a>
         </div>
         {{ end }}
@@ -197,12 +201,18 @@
                   {{end}}
                 </div>
                 <div class="flex-1 flex-grow">
+                  {{ $edu := . }}
                   {{ $degree := .degree | default .area }}
                   <p class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
                     {{ $degree }}
                   </p>
                   {{ with .institution }}
-                    <p class="text-gray-700 dark:text-gray-300 text-sm mt-1">{{ . }}</p>
+                    <p class="text-gray-700 dark:text-gray-300 text-sm mt-1 inline-flex items-center gap-1">
+                      <span>{{ . }}</span>
+                      {{ if $edu.url }}
+                        {{ partial "functions/get_icon" (dict "name" "arrow-top-right-on-square" "attributes" "class='w-3.5 h-3.5 opacity-60'") }}
+                      {{ end }}
+                    </p>
                   {{ end }}
                   {{ if .year }}
                     <p class="text-gray-500 dark:text-gray-400 text-sm mt-2">{{ .year }}</p>
