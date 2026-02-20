@@ -12,4 +12,4 @@ image:
 
 ---
 
-I defended my PhD thesis. My slides can be downloaded [here](/uploads/Thesis_Beamer.pdf). The video presented during the defense can be found on [YouTube](https://www.youtube.com/playlist?list=PLDuO0vxW_7saN-2j9KoTW7ZQfTou7RKwv)
+I defended my PhD thesis. My slides can be downloaded [here](/uploads/Thesis_Beamer.pdf). The video presented during the defense can be found on [YouTube](https://www.youtube.com/playlist?list=PLDuO0vxW_7saN-2j9KoTW7ZQfTou7RKwv).

@@ -15,6 +15,8 @@
 "affiliations":
   - "name": "Laboratoire des signaux et systèmes (L2S)"
     "url": "https://l2s.centralesupelec.fr/en/"
+  - "name": "CentraleSupélec"
+    "url": "https://www.centralesupelec.fr/en"
 "ids":
   "google_scholar": "SnNQLrQAAAAJ"
 "links":
@@ -36,15 +38,18 @@
   - "Bandits"
   - "Optimization"
 "education":
-  - "institution": "ENS Paris-Saclay"
+  - "institution": "CentraleSupélec"
+    "url": "https://www.centralesupelec.fr/en"
     "degree": "PhD CentraleSupélec, Université Paris Saclay"
     "start": "2022"
     "end": "2025"
   - "institution": "ENS Paris-Saclay"
+    "url": "https://ens-paris-saclay.fr/en"
     "degree": "Diplôme de L'ENS Paris Saclay"
     "start": "2017"
     "end": "2022"
   - "institution": "ENS Paris-Saclay"
+    "url": "https://www.master-mva.com/"
     "degree": "M2R Mathématiques Vision Apprentissage"
     "start": "2019"
     "end": "2020"

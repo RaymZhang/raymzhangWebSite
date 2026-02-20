@@ -38,10 +38,10 @@
 <div class="resume-biography py-8 px-4 sm:py-12 md:py-16 lg:py-24 xl:py-32 relative overflow-hidden">
   {{/* Add subtle top gradient for navbar transition */}}
   <div class="max-w-7xl mx-auto">
-    <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 items-start">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 md:gap-8 items-start">
       
       {{/* Left Column: Flexible span */}}
-      <div class="md:col-span-4 flex flex-col items-center text-center space-y-6 md:space-y-8">
+      <div class="lg:col-span-4 flex flex-col items-center text-center space-y-6 md:space-y-8">
         
         {{/* Banner Image */}}
         {{ $img := "" }}
@@ -137,7 +137,7 @@
       </div>
 
       {{/* Right Column: Flexible span */}}
-      <div class="md:col-span-8">
+      <div class="lg:col-span-8">
         
         {{/* Bio Section */}}
         {{ $bio_content := ($block.content.text | emojify | $page.RenderString) | default $profile.bio }}
@@ -183,7 +183,11 @@
           </div>
           <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
             {{ range . }}
+            {{ if .url }}
+            <a href="{{ .url | safeURL }}" target="_blank" rel="noopener" class="group h-full flex flex-col bg-gradient-to-br from-white/90 to-primary-50/30 dark:from-gray-800/90 dark:to-primary-900/20 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 border border-transparent hover:border-primary-200 dark:hover:border-primary-800 backdrop-blur-md">
+            {{ else }}
             <div class="group h-full flex flex-col bg-gradient-to-br from-white/90 to-primary-50/30 dark:from-gray-800/90 dark:to-primary-900/20 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 border border-transparent hover:border-primary-200 dark:hover:border-primary-800 backdrop-blur-md">
+            {{ end }}
               <div class="flex gap-4">
                 <div class="flex-shrink-0 w-12 h-12 bg-white dark:bg-gray-800 ring-1 ring-gray-200 dark:ring-gray-700 rounded-full flex items-center justify-center shadow-md">
                   {{ if .icon }}
@@ -197,6 +201,9 @@
                   <p class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
                     {{ $degree }}
                   </p>
+                  {{ with .institution }}
+                    <p class="text-gray-700 dark:text-gray-300 text-sm mt-1">{{ . }}</p>
+                  {{ end }}
                   {{ if .year }}
                     <p class="text-gray-500 dark:text-gray-400 text-sm mt-2">{{ .year }}</p>
                   {{ else if .start }}
@@ -207,7 +214,11 @@
                   {{ end }}
                 </div>
               </div>
+            {{ if .url }}
+            </a>
+            {{ else }}
             </div>
+            {{ end }}
             {{ end }}
           </div>
         </div>

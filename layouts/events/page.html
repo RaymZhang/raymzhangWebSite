@@ -6,8 +6,8 @@
 <div class="mx-auto flex max-w-screen-xl">
   {{ partial "components/sidebar.html" (dict "context" . "no_sidebar" true) }}
   {{ partial "components/toc.html" . }}
-  <article class="w-full break-words flex min-h-[calc(100vh-var(--navbar-height))] min-w-0 justify-center pb-8 pr-[calc(env(safe-area-inset-right)-1.5rem)]">
-    <main class="w-full min-w-0 max-w-6xl px-6 pt-4 md:px-12">
+  <article class="w-full break-words flex min-h-[calc(100vh-var(--navbar-height))] min-w-0 justify-center pb-8">
+    <main class="container mx-auto w-full min-w-0 pt-4">
 
       {{ if .Params.show_breadcrumb }}
       <div class="mb-4">
@@ -312,7 +312,7 @@
           ) }}
           
           {{/* Featured image - use fitted image dimensions for container, responsive for srcset */}}
-          <div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-16" style="max-width: {{$fitted_image.Width}}px; max-height: {{$fitted_image.Height}}px; margin-left: 0;">
+          <div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-16" style="max-width: {{$fitted_image.Width}}px; max-height: {{$fitted_image.Height}}px; margin-left: auto; margin-right: auto;">
             <div style="position: relative">
               <img srcset="{{ $responsive.srcset }}"
                    sizes="{{ $sizes_attr }}"
@@ -335,7 +335,7 @@
           {{else}}
             {{ $image = $featured.Fit "720x2500" }}
           {{end}}
-          <div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-16" style="max-width: {{$image.Width}}px; max-height: {{$image.Height}}px; margin-left: 0;">
+          <div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-16" style="max-width: {{$image.Width}}px; max-height: {{$image.Height}}px; margin-left: auto; margin-right: auto;">
             <div style="position: relative">
               <img src="{{ $image.RelPermalink }}" 
                    width="{{ $image.Width }}" 
@@ -352,7 +352,7 @@
 
       {{/* EVENT METADATA */}}
       {{ if .Params.abstract | or (eq .Type "events") }}
-        <div class="max-w-prose grid grid-cols-1 md:grid-cols-[200px_auto] gap-4 my-6">
+        <div class="max-w-prose mx-auto grid grid-cols-1 md:grid-cols-[200px_auto] gap-4 my-6">
 
         {{ if .Params.abstract }}
           <div class="font-bold text-2xl">{{ i18n "abstract" }}</div>
@@ -388,7 +388,7 @@
       </div>
       {{ end }}
 
-      <div class="prose prose-slate lg:prose-xl dark:prose-invert" data-pagefind-body>
+      <div class="prose prose-slate lg:prose-xl dark:prose-invert mx-auto" data-pagefind-body>
         {{ with .Section }}
           <span data-pagefind-filter="type" style="display:none;">{{ . }}</span>
         {{ end }}
@@ -399,12 +399,12 @@
       </div>
 
       {{ if .Lastmod }}
-      <div class="mt-8 md:mt-16 text-sm text-gray-600 dark:text-gray-400" style="margin-left: 0;">
+      <div class="max-w-prose mx-auto mt-8 text-right text-sm text-gray-600 dark:text-gray-400">
         <p>Last updated: {{ .Lastmod.Format "January 2, 2006" }}</p>
       </div>
       {{ end }}
 
-      <div class="prose prose-slate lg:prose-xl dark:prose-invert mt-5">
+      <div class="container mx-auto prose prose-slate lg:prose-xl dark:prose-invert mt-5">
         {{ .Scratch.Set "invert_pager" true }}
         {{ partial "page_footer" . }}
       </div>
