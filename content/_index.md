@@ -12,10 +12,12 @@ sections:
   - block: resume-biography-3
     id: about
     content:
+      headings:
+        about: "About Me"
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: |-
-        I was a PhD Student at the L2S lab at CentraleSupelec under the supervision of
+        I was a PhD Student at the L2S lab at CentraleSupélec under the supervision of
         [Richard Combes](http://rcombes.supelec.free.fr/) and
         [Sheng Yang](https://l2s.centralesupelec.fr/u/yang-sheng/)
       # Show a call-to-action button under your biography? (optional)

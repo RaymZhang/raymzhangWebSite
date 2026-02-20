@@ -5,7 +5,7 @@
 {{ $displayDate := $item.Params.event_start | default $item.Date }}
 <article class="w-full md:grid md:grid-cols-[max-content_minmax(0,1fr)] md:items-baseline md:gap-x-4">
   <time
-    class="hidden md:block relative z-10 text-left text-sm font-semibold text-zinc-700 dark:text-zinc-200 md:col-start-1 md:justify-self-start"
+    class="hidden md:block relative z-10 text-left text-sm font-semibold text-zinc-700 dark:text-zinc-200 md:col-start-1 md:justify-self-start md:pr-8"
     datetime="{{ time.Format "2006-01-02" $displayDate }}">
     {{ time.Format "02/01/06" $displayDate }}
   </time>

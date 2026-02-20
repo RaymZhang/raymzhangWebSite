@@ -57,13 +57,14 @@
       </h1>
 
       {{ $display_date := .Params.event_start | default .Date }}
+      {{ if and $display_date (not .Params.hide_date) }}
+      <div class="mt-3 text-lg text-gray-600 dark:text-gray-400">
+        {{ $display_date.Format "January 2, 2006" }}
+      </div>
+      {{ end }}
+
       <div class="mt-4 mb-16">
       <div class="text-gray-500 dark:text-gray-300 text-sm flex items-center flex-wrap gap-y-2">
-        {{- if $display_date | and (not .Params.hide_date) -}}
-        <span class="mr-1">{{- (time $display_date) | time.Format (site.Params.hugoblox.locale.date_format | default ":date_long") -}}</span>
-        {{- if .Params.authors }}<span class="mx-1">·</span>{{ end -}}
-        {{- end -}}
-
         {{/* Set Alpine.js flag if author notes exist */}}
         {{ if isset .Params "author_notes" }}
           {{ .Store.Set "has_alpine" true }}
@@ -311,7 +312,7 @@
           ) }}
           
           {{/* Featured image - use fitted image dimensions for container, responsive for srcset */}}
-          <div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-16" style="max-width: {{$fitted_image.Width}}px; max-height: {{$fitted_image.Height}}px;">
+          <div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-16" style="max-width: {{$fitted_image.Width}}px; max-height: {{$fitted_image.Height}}px; margin-left: 0;">
             <div style="position: relative">
               <img srcset="{{ $responsive.srcset }}"
                    sizes="{{ $sizes_attr }}"
@@ -334,7 +335,7 @@
           {{else}}
             {{ $image = $featured.Fit "720x2500" }}
           {{end}}
-          <div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-16" style="max-width: {{$image.Width}}px; max-height: {{$image.Height}}px;">
+          <div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-16" style="max-width: {{$image.Width}}px; max-height: {{$image.Height}}px; margin-left: 0;">
             <div style="position: relative">
               <img src="{{ $image.RelPermalink }}" 
                    width="{{ $image.Width }}" 
@@ -397,9 +398,13 @@
         {{ .Content }}
       </div>
 
-      {{ partial "components/last-edited.html" . }}
+      {{ if .Lastmod }}
+      <div class="mt-8 md:mt-16 text-sm text-gray-600 dark:text-gray-400" style="margin-left: 0;">
+        <p>Last updated: {{ .Lastmod.Format "January 2, 2006" }}</p>
+      </div>
+      {{ end }}
 
-      <div class="container mx-auto prose prose-slate lg:prose-xl dark:prose-invert mt-5">
+      <div class="prose prose-slate lg:prose-xl dark:prose-invert mt-5">
         {{ .Scratch.Set "invert_pager" true }}
         {{ partial "page_footer" . }}
       </div>

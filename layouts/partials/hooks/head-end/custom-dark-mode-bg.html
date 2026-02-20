@@ -1,0 +1,17 @@
+<style>
+/* Force background images to display in dark mode */
+.dark .home-section-bg.bg-image {
+  opacity: 1 !important;
+}
+
+/* Prevent dark background color from overriding background image */
+.dark .home-section-bg.bg-image[style*="background-image"] {
+  background-color: transparent !important;
+}
+
+/* Ensure the resume biography section shows its background */
+.dark #about .home-section-bg.bg-image {
+  display: block !important;
+  visibility: visible !important;
+}
+</style>

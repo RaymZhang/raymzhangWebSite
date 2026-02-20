@@ -3,7 +3,6 @@ title: PhD Thesis Defense
 date: 2025-12-12
 summary: I successfully defended my thesis at CentraleSupélec. 
 featured: false
-hide_date: true
 draft: false
 image:
   caption: ""

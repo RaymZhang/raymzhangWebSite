@@ -1,0 +1,18 @@
+<script>
+  // Force dark mode by overriding Hugo Blox theme detection
+  (function() {
+    // Set dark mode in localStorage FIRST before any theme detection
+    localStorage.setItem('hb-appearance', 'dark');
+    
+    // Add dark class to HTML element immediately
+    document.documentElement.classList.add('dark');
+    
+    // Override media query for prefers-color-scheme
+    const darkMQL = window.matchMedia('(prefers-color-scheme: dark)');
+    const originalMatches = Object.getOwnPropertyDescriptor(MediaQueryList.prototype, 'matches');
+    Object.defineProperty(darkMQL, 'matches', {
+      get: () => true,
+      configurable: true
+    });
+  })();
+</script>
