@@ -5,6 +5,10 @@
 - Hugo modules define the theme/plugins in [config/_default/module.yaml](config/_default/module.yaml) and the Go module metadata in [go.mod](go.mod).
 - The rendered site is committed under [public/](public/) and is generated output; don’t hand-edit it.
 
+## Documentation references
+- Documentation for the tools and API used in this project is available at [docs.ownable.dev](https://docs.ownable.dev/).
+- The Ownable documentation is based on [gohugo.io](https://gohugo.io/).
+
 ## Content & structure
 - The homepage is a “landing” page defined in [content/_index.md](content/_index.md) with a `sections` list of Hugo Blox blocks (e.g., `resume-biography-3`, `collection`).
 - Publications live under [content/publications/](content/publications/) with one folder per item (e.g., [content/publications/Thompson_Sampling/index.md](content/publications/Thompson_Sampling/index.md)). Front matter uses `authors` plus `links` for PDF/code; avoid deprecated `url_pdf`/`url_code`.
