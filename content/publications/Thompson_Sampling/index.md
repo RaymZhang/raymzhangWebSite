@@ -7,7 +7,7 @@ abstract: |-
   exemples that may not be that uncommon.
 slides: ""
 publication_types:
-  - Conference Paper
+  - paper-conference
 authors:
   - me
   - richardc

@@ -9,7 +9,7 @@ abstract: |-
   samples from a well-chosen Gaussian posterior.
 slides: ""
 publication_types:
-  - Conference Paper
+  - paper-conference
 authors:
   - me
   - richardc

@@ -22,7 +22,7 @@ abstract: |-
   [https://github.com/RaymZhang/LinearBanditsEllipsoidsMinimaxCOLT](https://github.com/RaymZhang/LinearBanditsEllipsoidsMinimaxCOLT).
 slides: ""
 publication_types:
-  - Conference Paper
+  - paper-conference
 authors:
   - me
   - hedih
