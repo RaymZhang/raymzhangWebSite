@@ -1,0 +1,23 @@
+{{/*
+  Force dark mode for every visitor.
+
+  The site is only ever designed/verified in dark mode, so light mode must never
+  be served. Two things can otherwise flip a visitor to light:
+
+    1. `hugoblox.theme.mode` in params.yaml — handled there (set to `dark`), it
+       renders <html data-wc-theme-default="dark">.
+    2. A stale `wc-color-theme: light` in a returning visitor's localStorage,
+       which the theme's initTheme() (assets/js/hb-init.js) honours over the
+       site default. That is what this script clears.
+
+  NOTE the key is `wc-color-theme` — that is the name the theme actually reads.
+  This runs in <head> before hb-head.js (an ES module, therefore deferred), so
+  initTheme() sees the corrected value and there is no flash of light mode.
+*/}}
+<script>
+  (function () {
+    try { localStorage.setItem("wc-color-theme", "dark"); } catch (e) {}
+    document.documentElement.classList.add("dark");
+    document.documentElement.style.colorScheme = "dark";
+  })();
+</script>

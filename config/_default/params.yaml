@@ -4,15 +4,22 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
-
-appearance:
-  mode: dark
-  font: ''
-  font_size: L
-
+# NOTE: the legacy top-level `appearance:` block is IGNORED by blox v0.11+.
+# The authoritative key is `hugoblox.theme` below.
 
 hugoblox:
   schema: "2.0"
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # THEME
+  # `mode` is rendered into <html data-wc-theme-default="..."> and read by the
+  # theme's JS. It MUST be `dark` — this site is only ever checked in dark mode
+  # and `system` would serve the (unverified) light palette to some visitors.
+  # ────────────────────────────────────────────────────────────────────────────
+  theme:
+    mode: dark                          # dark | light | system — keep `dark`
+    light: default
+    dark: default
 
   # ────────────────────────────────────────────────────────────────────────────
   # IDENTITY
