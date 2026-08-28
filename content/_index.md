@@ -19,9 +19,11 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: |-
-        I was a PhD Student at the L2S lab at CentraleSupélec under the supervision of
+        I am currently a PostDoc at Inria Lille in the [SCOOL](https://team.inria.fr/scool/) team. I am under the supervision [Emilie Kaufmann](https://emiliekaufmann.github.io/) and [Remy Degenne](https://remydegenne.github.io/). My research interests are around sequential learning, mostly for bandits (Active identification and cumulative regret) and communication / information theory. 
+
+        Between 2022 and 2025, I was a PhD Student at the L2S lab at CentraleSupélec under the supervision of
         [Richard Combes](http://rcombes.supelec.free.fr/) and
-        [Sheng Yang](https://l2s.centralesupelec.fr/u/yang-sheng/)
+        [Sheng Yang](https://l2s.centralesupelec.fr/u/yang-sheng/).
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV

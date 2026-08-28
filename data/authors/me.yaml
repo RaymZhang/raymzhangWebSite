@@ -9,14 +9,18 @@
 "status":
   "icon": ""
 "bio": |-
-  I was a PhD Student at the L2S lab at CentraleSupelec under the supervision of
+  I am currently a PostDoc at Inria Lille in the [SCOOL](https://team.inria.fr/scool/) team. 
+  I am under the supervision [Emilie Kaufmann](https://emiliekaufmann.github.io/) and [Remy Degenne](https://remydegenne.github.io/). 
+  My research interests are around sequential learning, mostly for bandits (Active identification and cumulative regret) and communication / information theory. 
+
+  Between 2022 and 2025, I was a PhD Student at the L2S lab at CentraleSupélec under the supervision of
   [Richard Combes](http://rcombes.supelec.free.fr/) and
   [Sheng Yang](https://l2s.centralesupelec.fr/u/yang-sheng/)
 "affiliations":
-  - "name": "Laboratoire des signaux et systèmes (L2S)"
-    "url": "https://l2s.centralesupelec.fr/en/"
-  - "name": "CentraleSupélec"
-    "url": "https://www.centralesupelec.fr/en"
+  - "name": "SCOOL"
+    "url": "https://team.inria.fr/scool/"
+  - "name": "Inria Lille"
+    "url": "https://www.inria.fr/en/inria-centre-university-lille"
 "ids":
   "google_scholar": "SnNQLrQAAAAJ"
 "links":
@@ -39,6 +43,7 @@
   - "Adaptive Estimation"
   - "Bandits"
   - "Optimization"
+  - "Information Theory"
 "education":
   - "institution": "CentraleSupélec"
     "url": "https://www.centralesupelec.fr/en"
