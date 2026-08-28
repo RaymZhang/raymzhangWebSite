@@ -9,7 +9,7 @@
 "status":
   "icon": ""
 "bio": |-
-  I am currently a PostDoc at Inria Lille in the [SCOOL](https://team.inria.fr/scool/) team. 
+  I am currently a PostDoc at Inria Lille in the [Scool](https://team.inria.fr/scool/) team. 
   I am under the supervision [Emilie Kaufmann](https://emiliekaufmann.github.io/) and [Remy Degenne](https://remydegenne.github.io/). 
   My research interests are around sequential learning, mostly for bandits (Active identification and cumulative regret) and communication / information theory. 
 
@@ -17,7 +17,7 @@
   [Richard Combes](http://rcombes.supelec.free.fr/) and
   [Sheng Yang](https://l2s.centralesupelec.fr/u/yang-sheng/)
 "affiliations":
-  - "name": "SCOOL"
+  - "name": "Scool"
     "url": "https://team.inria.fr/scool/"
   - "name": "Inria Lille"
     "url": "https://www.inria.fr/en/inria-centre-university-lille"
